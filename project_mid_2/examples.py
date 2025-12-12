@@ -22,11 +22,13 @@ library.add_book(book3)
 library.add_patron(patron1)
 library.add_patron(patron2)
 
-# Patron borrows and returns books
+print()
+
+print("Patron borrows and returns books")
 print(patron1.borrow_book(book1))  # Alice borrows "Introduction to Python"
 print(patron1.return_book(book1))  # Alice returns the book
 
-
+print()
 
 
 # Show book info
